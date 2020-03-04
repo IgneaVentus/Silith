@@ -1,0 +1,20 @@
+{
+  "name": "Silith",
+  "version": "1.0.0",
+  "description": "Small application meant for self-education",
+  "main": "index.js",
+  "scripts": {
+	"start": "webpack src/index.js --output bin/app.js -d --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["learning","study","mithril"],
+  "author": "IgneaVentus",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
