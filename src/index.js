@@ -1,2 +1,4 @@
-import m from "mithril";
-m.redner(document.body,"Hello world");
+// index.js
+var m = require("mithril")
+
+m.render(document.body, m("h1","hello world"))

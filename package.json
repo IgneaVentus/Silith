@@ -4,13 +4,17 @@
   "description": "Small application meant for self-education",
   "main": "index.js",
   "scripts": {
-	"start": "webpack src/index.js --output bin/app.js -d --watch"
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
   },
-  "keywords": ["learning","study","mithril"],
+  "keywords": [
+    "learning",
+    "study",
+    "mithril"
+  ],
   "author": "IgneaVentus",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "mithril": "^2.0.4"
   },
   "devDependencies": {
