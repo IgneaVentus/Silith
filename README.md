@@ -1,5 +1,6 @@
 # Silith
 Mithril application for learning created by Krzysztof Krupiński.
+
 **Warning!** This project is in no way considered stable.
 
 **To-do List:**
