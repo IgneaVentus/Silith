@@ -7,6 +7,7 @@ var Article = require("../models/article")
 
 //Część główna strony
 var Main = {
+	oninit: Article.loadList,
 	view: function() {
 		return m(".main", [
 			m(".container[id='articles']", Article.list.map(function(article) {

@@ -1,0 +1,31 @@
+{"articles": [
+   {
+      "id": "welc",
+	  "navname": "First",
+	  "img": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/mediumplus/public/field/image/2016/06/xpbliss_7.jpg?itok=RDRuJObj",
+      "header": "Nagłówek",
+      "content": "Krótki przykładowy post mający odwzorowywać przykładowy tekst pisany w celu zareklamowania swojej firmy."
+   },
+   {
+      "id": "second",
+	  "navname": "Second",
+	  "img": "https://i.pinimg.com/originals/04/30/a2/0430a263502e44a9c594096cc312982e.jpg",
+      "header": "Nagłówek",
+      "content": "Krótki przykładowy post mający odwzorowywać przykładowy tekst pisany w celu zareklamowania swojej firmy."
+   }
+],
+"contact": {
+	"name": "Krzysztof",
+	"surname": "Krupiński",
+	"phone": "999 999 999",
+	"mail": "17704@student.pwsz.elblag.pl"
+},
+"carousel": [
+	{
+		"image": "https://simplepic.pl/wp-content/uploads/2019/05/logo-simplepic-white.png"
+	},
+	{
+		"image": "https://simplepic.pl/wp-content/uploads/2019/05/logo-simplepic-white.png"
+	}
+]
+}

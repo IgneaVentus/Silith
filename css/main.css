@@ -1,6 +1,22 @@
 article {
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(0,0,0,0.7);
+	color: silver;
 	padding: 1vw;
 	border-radius: 15px;
-	margin-top: 5px;
+}
+
+.articlebg {
+	min-height: 30vh;
+	max-height: 60vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contact_tab {
+	text-align: center;
+	color: silver;
+	font-family: Calibri;
+	background-color: #000000;
+	min-height: 20vh;
 }

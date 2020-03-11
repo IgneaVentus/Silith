@@ -1,17 +1,11 @@
 var m = require("mithril")
 
-
 var Article = {
-	list: [],
-	loadList: function () {
-		return m.request({
-			method: "GET",
-			url: "../data/articles",
-		})
-		.then(function(result) {
-			Article.list = result.data
-		})
-	}
+    list: [],
+    loadList: function() {
+		this.list = Array.from(require("../data/data.json").articles)
+		console.log("Articles data loaded")
+    },
 }
 
 module.exports = Article
