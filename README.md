@@ -6,7 +6,7 @@ Mithril application for learning created by Krzysztof Krupiński.
 **To-do List:**
 - [X] Make it start
 - [X] Create the template site
-- [ ] Add XML
-- [ ] Add basic scripts
+- [X] Add JSON
+- [X] Add basic scripts
 - [ ] Add presentation scripts
 - [ ] \(Optional) Make it fancy
