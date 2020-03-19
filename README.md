@@ -1,12 +1,6 @@
 # Silith
-Mithril application for learning created by Krzysztof Krupiński.
+Mithril application for people who want to quickly setup one-page website.
+All data is configurable in /src/data/data.json.
+Make your own site for your local buisness or even for your person.
 
-**Warning!** This project is in no way considered stable.
-
-**To-do List:**
-- [X] Make it start
-- [X] Create the template site
-- [X] Add JSON
-- [X] Add basic scripts
-- [ ] Add presentation scripts
-- [ ] \(Optional) Make it fancy
+You can add as many articles or carousel images as you want. (Thought how it will look is another matter)
