@@ -18,5 +18,24 @@ article {
 	color: silver;
 	font-family: Calibri;
 	background-color: #000000;
-	min-height: 20vh;
+	min-height: 5rem;
+	max-height: 15vh;
+}
+
+.carousel {
+	display: inline-block;
+}
+
+.bitch {
+	width: 100vw;
+	height: 80vh;
+	object-fit: cover;
+	
+}
+
+.captbg {
+	background-color: rgba(0,0,0,0.7);
+	color: silver;
+	padding: 5px;
+	border-radius: 25px;
 }

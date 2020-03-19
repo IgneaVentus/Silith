@@ -1,12 +1,11 @@
 var m = require("mithril")
 
-var Article = {
+var Carousel = {
     list: [],
     loadList: function() {
-		this.list = Array.from(require("../data/articles.json").articles)
-		console.log("Data loaded")
-		console.log(this.list)
+		this.list = Array.from(require("../data/data.json").carousel)
+		console.log("Carousel data loaded")
     },
 }
 
-module.exports = Article
+module.exports = Carousel
