@@ -4,7 +4,6 @@ var first = true
 var count = 0
 function Activator(x) {
 	if (x==0) {
-		console.log(first)
 		if (first) {
 			first=false
 			return(".active")
