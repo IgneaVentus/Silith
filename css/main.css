@@ -22,11 +22,11 @@ article {
 	max-height: 15vh;
 }
 
-.carousel {
+#carousel {
 	display: inline-block;
 }
 
-.bitch {
+.carousel-item > img {
 	width: 100vw;
 	height: 80vh;
 	object-fit: cover;

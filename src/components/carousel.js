@@ -31,7 +31,7 @@ var Main = {
 				Activator(1),
 				m("carousel-inner",[Data.list.map(function(item) {
 					return m(".carousel-item"+Activator(0),
-						m("img.bitch[src='"+item.image+"'][alt='Slide']"),
+						m("img[src='"+item.image+"'][alt='Slide']"),
 						m(".carousel-caption.d-none.d-md-block.captbg", [
 							m("h5", item.title),
 							m("p", item.caption)
