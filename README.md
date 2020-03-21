@@ -9,4 +9,4 @@ You can add as many articles or carousel images as you want. (Thought how it wil
 
 After editing data file, you should run npm start, or reload.bat included with website.
 
-[Example site](http://neos.000webhost.com)
+[Example site](https://neos.000webhostapp.com/)
