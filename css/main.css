@@ -41,21 +41,31 @@ article {
 
 #carousel {
 	display: inline-block;
+	overflow: hidden;
+	width: 100vw;
+}
+
+.carousel-item > img {
+	width: 100vw;
+	object-fit: cover;
 }
 
 @media only screen and (max-width: 768px) {
+	#carousel {
+		height:40vh;
+	}
 	.carousel-item > img {
-		width: 100vw;
 		height: 40vh;
-		object-fit: cover;
 	}
 }
 
 @media only screen and (min-width: 768px) {
+	#carousel {
+		height:80vh;
+	}
 	.carousel-item > img {
 		width: 100vw;
 		height: 80vh;
-		object-fit: cover;
 	}
 }
 
