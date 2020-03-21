@@ -1,5 +1,5 @@
 # Silith
-Mithril application for people who want to quickly setup one-page website.
+Mithril application for people who want to quickly setup fully responsive one-page website.
 All data is configurable in /src/data/data.json.
 Make your own site for your local buisness or even for your person.
 
