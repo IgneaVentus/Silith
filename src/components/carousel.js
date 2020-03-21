@@ -2,7 +2,10 @@ var m = require("mithril")
 var Data = require("../models/carousel")
 var first = true
 var count = 0
+
+//Function for setting wchich images start as active
 function Activator(x) {
+	//Check flag and if true, sign
 	if (x==0) {
 		if (first) {
 			first=false
@@ -12,14 +15,17 @@ function Activator(x) {
 			return("")
 		}
 	}
+	//Reset flag
 	else {
 		first = true;
 	}
 }
+
 function Counter() {
 	return (count++)
 }
-//Karuzela
+
+//Image carousel part of the site
 var Main = {
 	oninit: Data.loadList(),
 	view: function() {

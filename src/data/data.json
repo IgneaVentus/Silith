@@ -1,52 +1,48 @@
 {"articles": [
    {
       "id": "first",
-	  "navname": "First",
-	  "img": "https://www.windowscentral.com/sites/wpcentral.com/files/styles/mediumplus/public/field/image/2016/06/xpbliss_7.jpg?itok=RDRuJObj",
-      "header": "Header",
-      "content": "Short post made to advertise yourself, your company or product!"
+	  "navname": "Power outlets",
+	  "img": "https://image.shutterstock.com/image-photo/2-white-electric-outlet-power-260nw-1468396007.jpg",
+      "header": "Installation of power outlets",
+      "content": "We offer both cheapest and safest installation of power outlets you can get!"
    },
    {
       "id": "second",
-	  "navname": "Second",
-	  "img": "https://i.pinimg.com/originals/04/30/a2/0430a263502e44a9c594096cc312982e.jpg",
-      "header": "Header",
-      "content": "Short post made to advertise yourself, your company or product!"
+	  "navname": "Wiring",
+	  "img": "https://ceautoelectricsupply.com/wp-content/uploads/2016/05/CEPowerCable_lg.jpg",
+      "header": "Wiring",
+      "content": "We are great at both making new connections and servicing old cables at your office or home!"
    },
    {
       "id": "third",
-	  "navname": "Third",
+	  "navname": "Consulting",
 	  "img": "https://previews.123rf.com/images/kurhan/kurhan1611/kurhan161100044/65177605-smiling-successful-business-people-team-blue-banner-background-.jpg",
-      "header": "Header",
-      "content": "Short post made to advertise yourself, your company or product!"
+      "header": "Consulting",
+      "content": "We are always ready to answer YOUR questions! No matter how hard or complicated they are, you can count on us!"
    }
 ],
 "contact": {
-	"name": "John Smith",
+	"name": "Electrica Inc.",
+	"logo": "./src/images/logo.png",
 	"phoneprefix": "48",
 	"phone": "999 999 999",
-	"mail": "example@mail.here"
+	"mail": "service@electrica.com"
 },
 "carousel": [
 	{
-		"title": "Title",
-		"caption": "Example text made under title",
-		"image": "https://as2.ftcdn.net/jpg/01/68/78/19/1000_F_168781929_puJ2IfQTGNPrWPkmuccXq0AALOvrs2lX.jpg"
+		"title": "Strong position",
+		"caption": "We have strong position on the market with more than 30 clients in Neverland!",
+		"image": "https://sklep.toroidy.pl/userdata/gfx/18c24f1204780980faa7c2e0e921e178.jpg"
 	},
 	{
-		"title": "Title",
-		"caption": "Example text made under title",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRhv1NNZCUlj20HabJoZTmAMxFoWfbIkdGXewPSacZFe8sTFyRg"
+		"title": "Building or renovating?",
+		"caption": "No matter wchich of these two, as long as you need something rewired, we are here for you!",
+		"image": "https://i.pinimg.com/originals/1c/5e/db/1c5edbedb1980ecb8f60c65d22b4e5fe.jpg"
 	},
 	{
-		"title": "Title",
-		"caption": "Example text made under title",
-		"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTto3yPxjFCTZZ24JvWTAn3zb7G1kvaI68rVQCCSjmqWFK2A5KY"
-	},
-	{
-		"title": "Title",
-		"caption": "Example text made under title",
-		"image": "https://simplepic.pl/wp-content/uploads/2019/05/logo-simplepic-white.png"
+		"title": "Enough of stress!",
+		"caption": "We are here to help You and get you relaxed in your safe and powered house!",
+		"image": "https://img.huffingtonpost.com/asset/5b9e7d542100003100c5f33e.jpeg"
 	}
 ]
 }

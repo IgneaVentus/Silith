@@ -3,14 +3,32 @@ article {
 	color: silver;
 	padding: 1vw;
 	border-radius: 15px;
+	height: 100%;
 }
 
 .articlebg {
-	min-height: 30vh;
+	min-height: 40vh;
 	max-height: 60vh;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+}
+
+@media only screen and (max-width: 768px) {
+	.articlebg {
+		min-height: 20vh;
+		max-height: 100vh;
+	}
+	article {
+		font-size: 75%;
+	}
+	article > h2 {
+		font-size: large;
+	}
+	#brand > img{
+		max-width: 60vw;
+		object-fit: contain;
+	}
 }
 
 .contact_tab {
@@ -18,19 +36,27 @@ article {
 	color: silver;
 	font-family: Calibri;
 	background-color: #000000;
-	min-height: 5rem;
-	max-height: 15vh;
+	min-height: 5vh;
 }
 
 #carousel {
 	display: inline-block;
 }
 
-.carousel-item > img {
-	width: 100vw;
-	height: 80vh;
-	object-fit: cover;
-	
+@media only screen and (max-width: 768px) {
+	.carousel-item > img {
+		width: 100vw;
+		height: 40vh;
+		object-fit: cover;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.carousel-item > img {
+		width: 100vw;
+		height: 80vh;
+		object-fit: cover;
+	}
 }
 
 .captbg {
