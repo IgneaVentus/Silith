@@ -1,12 +1,7 @@
 # Silith
-Mithril application for people who want to quickly setup fully responsive one-page website.
-All data is configurable in /src/data/data.json.
-Make your own site for your local buisness or even for your person.
+Silith is a website made on mithril framework for people who want to have easy to manage but still good looking buisness site. It's best suited for smaller companies as a temporary site or as a personal site, allowing great control of content in a easy way.
+To get started, check [wiki](https://github.com/IgneaVentus/Silith/wiki)
 
 This project requires [npm](https://www.npmjs.com/)
-
-You can add as many articles or carousel images as you want. (Thought how it will look is another matter)
-
-After editing data file, you should run npm start, or reload.bat included with website.
 
 [Example site](https://neos.000webhostapp.com/)
