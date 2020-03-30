@@ -21,6 +21,9 @@ var NavBar = {
 						)
 					}),
 					m("li.nav-item",
+						m("a.nav-link.mr-2[href='#address']","Address")
+					),
+					m("li.nav-item",
 						m("a.nav-link.mr-2[href='#contact']","Contact")
 					)
 				])

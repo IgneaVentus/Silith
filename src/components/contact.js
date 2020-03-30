@@ -31,13 +31,11 @@ var Contact = {
 		//Adding contact footer
 		return m(".container-flex.contact_tab.pt-4.m-0.w-100.row [id='contact']",[
 			m(".col-md-2"),
-			m("a.col-md.phone_number.align-self-center[href='tel:+"+Data.data.phoneprefix+Data.data.phone+"']","+"+Data.data.phoneprefix+" "+Data.data.phone),
+			m("a.col-md.phone_number.align-self-center[id='phone'][href='tel:+"+Data.data.phoneprefix+Data.data.phone+"']","+"+Data.data.phoneprefix+" "+Data.data.phone),
 			m("h2.col-md.align-self-center",logom),
-			m("a.col-md.mail.align-self-center[href='mailto:"+Data.data.mail+"']",Data.data.mail),
+			m("a.col-md.mail.align-self-center[id='mail'][href='mailto:"+Data.data.mail+"']",Data.data.mail),
 			m(".col-md-2")
 		])
-	},
-	brand: function() {
 	}
 }
 

@@ -50,12 +50,31 @@ article {
 	object-fit: cover;
 }
 
+#address {
+	width: 100%;
+	background-color: black;
+}
+
+#address.container-flex {
+	object-fit: contain;
+	text-align: center;
+	font-weight: bolder;
+}
+
 @media only screen and (max-width: 768px) {
 	#carousel {
 		height:40vh;
 	}
 	.carousel-item > img {
 		height: 40vh;
+	}
+	#address.embed-responsive{
+		height: 35vh;
+	}
+	#address.container-flex {
+		padding-top: 4vh;
+		padding-bottom: 2vh;
+		font-size: 90%;
 	}
 }
 
@@ -67,6 +86,14 @@ article {
 		width: 100vw;
 		height: 80vh;
 	}
+	#address.embed-responsive{
+		height: 50vh;
+	}
+	#address.container-flex {
+		padding-top: 2vh;
+		padding-bottom: 2vh;
+		font-size: 110%;
+	}
 }
 
 .captbg {
@@ -74,4 +101,9 @@ article {
 	color: silver;
 	padding: 5px;
 	border-radius: 25px;
+}
+
+#phone, #mail {
+	font-weight: bolder;
+	font-size: 110%;
 }

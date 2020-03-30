@@ -1,48 +1,56 @@
-{"articles": [
-   {
-      "id": "first",
-	  "navname": "Power outlets",
-	  "img": "https://image.shutterstock.com/image-photo/2-white-electric-outlet-power-260nw-1468396007.jpg",
-      "header": "Installation of power outlets",
-      "content": "We offer both cheapest and safest installation of power outlets you can get!"
-   },
-   {
-      "id": "second",
-	  "navname": "Wiring",
-	  "img": "https://ceautoelectricsupply.com/wp-content/uploads/2016/05/CEPowerCable_lg.jpg",
-      "header": "Wiring",
-      "content": "We are great at both making new connections and servicing old cables at your office or home!"
-   },
-   {
-      "id": "third",
-	  "navname": "Consulting",
-	  "img": "https://previews.123rf.com/images/kurhan/kurhan1611/kurhan161100044/65177605-smiling-successful-business-people-team-blue-banner-background-.jpg",
-      "header": "Consulting",
-      "content": "We are always ready to answer YOUR questions! No matter how hard or complicated they are, you can count on us!"
-   }
-],
-"contact": {
-	"name": "Electrica Inc.",
-	"logo": "./src/images/logo.png",
-	"phoneprefix": "48",
-	"phone": "999 999 999",
-	"mail": "service@electrica.com"
-},
-"carousel": [
-	{
-		"title": "Strong position",
-		"caption": "We have strong position on the market with more than 30 clients in Neverland!",
-		"image": "https://sklep.toroidy.pl/userdata/gfx/18c24f1204780980faa7c2e0e921e178.jpg"
+{
+	"articles": [
+	   {
+		  "id": "first",
+		  "navname": "Power outlets",
+		  "img": "https://image.shutterstock.com/image-photo/2-white-electric-outlet-power-260nw-1468396007.jpg",
+		  "header": "Installation of power outlets",
+		  "content": "We offer both cheapest and safest installation of power outlets you can get!"
+	   },
+	   {
+		  "id": "second",
+		  "navname": "Wiring",
+		  "img": "https://hometheaterreview.com/assets_c/2012/11/Nordost-Red-Dawn-power-cord-thumb-800xauto-8091.jpg",
+		  "header": "Wiring",
+		  "content": "We are great at both making new connections and servicing old cables at your office or home!"
+	   },
+	   {
+		  "id": "third",
+		  "navname": "Consulting",
+		  "img": "https://previews.123rf.com/images/kurhan/kurhan1611/kurhan161100044/65177605-smiling-successful-business-people-team-blue-banner-background-.jpg",
+		  "header": "Consulting",
+		  "content": "We are always ready to answer YOUR questions! No matter how hard or complicated they are, you can count on us!"
+	   }
+	],
+	"contact": {
+		"name": "Electrica Inc.",
+		"logo": "./src/images/logo.png",
+		"phoneprefix": "48",
+		"phone": "999 999 999",
+		"mail": "service@electrica.com"
 	},
-	{
-		"title": "Building or renovating?",
-		"caption": "No matter wchich of these two, as long as you need something rewired, we are here for you!",
-		"image": "https://i.pinimg.com/originals/1c/5e/db/1c5edbedb1980ecb8f60c65d22b4e5fe.jpg"
-	},
-	{
-		"title": "Enough of stress!",
-		"caption": "We are here to help You and get you relaxed in your safe and powered house!",
-		"image": "https://img.huffingtonpost.com/asset/5b9e7d542100003100c5f33e.jpeg"
+	"carousel": [
+		{
+			"title": "Strong position",
+			"caption": "We have strong position on the market with more than 30 clients in Neverland!",
+			"image": "https://sklep.toroidy.pl/userdata/gfx/18c24f1204780980faa7c2e0e921e178.jpg"
+		},
+		{
+			"title": "Building or renovating?",
+			"caption": "No matter wchich of these two, as long as you need something rewired, we are here for you!",
+			"image": "https://i.pinimg.com/originals/1c/5e/db/1c5edbedb1980ecb8f60c65d22b4e5fe.jpg"
+		},
+		{
+			"title": "Enough of stress!",
+			"caption": "We are here to help You and get you relaxed in your safe and powered house!",
+			"image": "https://img.huffingtonpost.com/asset/5b9e7d542100003100c5f33e.jpeg"
+		}
+	],
+	"address": {
+		"street_name": "Lombard Street",
+		"street_number": "13",
+		"city": "San Francisco",
+		"postcode": "CA 94109",
+		"api_key": ""
 	}
-]
 }
