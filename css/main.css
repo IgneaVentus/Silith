@@ -50,6 +50,14 @@ article {
 	object-fit: cover;
 }
 
+.carousel-control-next {
+	background-image: linear-gradient(to right, rgba(255,255,255,0.0), rgba(0,0,0,0.5));
+}
+
+.carousel-control-prev {
+	background-image: linear-gradient(to left, rgba(255,255,255,0.0), rgba(0,0,0,0.5));
+}
+
 #address {
 	width: 100%;
 	background-color: black;
