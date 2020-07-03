@@ -3,5 +3,3 @@ Silith is a website made on mithril framework for people who want to have easy t
 To get started, check [wiki](https://github.com/IgneaVentus/Silith/wiki)
 
 This project requires [npm](https://www.npmjs.com/)
-
-[Example site](https://neos.000webhostapp.com/)
